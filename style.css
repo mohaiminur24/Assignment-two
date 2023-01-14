@@ -224,6 +224,7 @@ span{
     font-weight: 200;
     padding: 5px 10px;
     background-color: var(--background);
+    border-radius: 5px;
 }
 .ancor{
     display: flex;
