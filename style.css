@@ -168,6 +168,7 @@ span{
     margin-top: 20px;
 }
 .enjoy-part{
+    max-width: 700px;
     padding: 15px 15px;
     box-shadow: 0px 0px 7px rgb(235, 232, 232);
     border-radius: 5px;
@@ -180,13 +181,62 @@ span{
     bottom: -50px;
 
 }
+/* our sector section start */
+.our-sector{
+    width: 100%;
+    margin: 50px 0;
+}
+.our-sector h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 30px 0;
+
+}
+.sectors{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.sector{
+    padding: 20px;
+}
+.sector .fa-solid{
+    font-size: 4rem;
+    color: var(--grey);
+    margin: 20px 0;
+}
+.sector h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.sector p{
+    font-size: .8rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.sector a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    font-size: .8rem;
+    font-weight: 200;
+    padding: 5px 10px;
+    background-color: var(--background);
+}
+.ancor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
 
 
 /* some facts start */
 
 .some-facts{
     width: 100%;
-    margin: 200px 0px;
+    margin: 100px 0px;
 }
 .some-facts h1{
     font-size: 1.5rem;
@@ -223,3 +273,43 @@ span{
 
 
 /* our sponspors section start */
+
+
+.our-sponspors{
+    width: 100%;
+    margin: 50px 0px;
+}
+.our-sponspors h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+.our-sponspors p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: .8rem;
+    color: var(--grey);
+}
+.sponspors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+.sponspors img{
+    filter: grayscale(100%);
+}
+
+/* footer section start */
+.footer{
+    padding: 30px 0;
+    background-color: var(--background);
+    text-align: center;
+    margin: 100px 0;
+}
+.footer h6{
+    font-size: .6rem;
+    font-weight: 400;
+}
