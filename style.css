@@ -179,6 +179,7 @@ span{
     left: 50%;
     right: 0;
     bottom: -50px;
+    color: white;
 
 }
 /* our sector section start */
@@ -313,4 +314,71 @@ span{
 .footer h6{
     font-size: .6rem;
     font-weight: 400;
+}
+
+
+/* Responsive Desgin for mobile screen */
+
+
+@media only screen and (max-width:700px) {
+
+    .nav-menu{
+        width: 100%;
+        position: relative;
+        height: 100px;
+        margin-bottom: 100px;
+    }
+    .nav-menu ul{
+        position: absolute;
+        margin-top: 100px;
+        left: 0;
+        right: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+    .nav-menu ul li{
+        display: block;
+    }
+
+
+    .features-section{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .features-content{
+        text-align: center;
+    }
+    .images-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-enjoy{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .experience{
+        position: unset;
+        margin: 20px auto;
+    }
+    .sectors{
+        flex-direction: column;
+    }
+    .some-facts p{
+        width: 100%;
+    }
+    .facts{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sponspors{
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer h6{
+        padding: 0 20px;
+    }
+
+
+    
 }
